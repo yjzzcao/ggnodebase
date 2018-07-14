@@ -1,0 +1,26 @@
+# http://www.alloyteam.com/2014/12/editor-config/
+
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.java]
+indent_style = tab
+indent_size = 4
+
+[*.(json,xml)]
+indent_style = space
+indent_size = 2
+insert_final_newline = false
+
+[*.(js,css)]
+indent_style = space
+indent_size = 2
+
+[*.(jsx,html,ejs)]
+indent_style = space
+indent_size = 4

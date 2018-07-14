@@ -1,0 +1,62 @@
+// 盒子边框
+body .public_fixedDataTable_main {
+    outline: none;
+    border-width: 0;
+}
+// thead上下边框
+body .public_fixedDataTable_header.public_fixedDataTableRow_main {
+    border-top: 1px solid #cfe2f3;
+    border-bottom: 1px solid #cfe2f3;
+}
+// 所有行下边框
+body .public_fixedDataTableRow_main {
+    border-bottom: 1px solid #f5f5f5;
+}
+// 所有Cell的右边框
+body .public_fixedDataTableCell_main {
+    border-right-width: 0;
+    border-width: 0 0 0 0;
+}
+// 滚动条边框
+body .public_Scrollbar_main,
+body .public_Scrollbar_main.public_Scrollbar_mainActive {
+    border-left-width: 0;
+}
+
+// 可滚动阴影
+body .public_fixedDataTableRow_columnsShadow {
+    background: none;
+}
+
+// 所有Cell内边距
+body .public_fixedDataTableCell_cellContent {
+    padding: 0 8px;
+}
+
+// 字体大小
+body .public_fixedDataTable_main {
+    font-size: 12px;
+}
+
+// 背景色&字体颜色
+// thead
+body .public_fixedDataTable_header,
+body .public_fixedDataTable_header .public_fixedDataTableCell_main,
+body .public_fixedDataTable_scrollbarSpacer {
+    color: #32639d;
+    background-color: #dcedff;
+    background-image: none;
+}
+// 鼠标聚焦行背景色
+body .public_fixedDataTable_bodyRow:hover .public_fixedDataTableCell_main {
+    background-color: #fef7e3;
+}
+// tbody奇数行背景色
+body .public_fixedDataTableCell_main {
+    background-color: #ffffff;
+}
+// tbody偶数行背景色
+body .public_fixedDataTableRow_highlighted,
+body .public_fixedDataTableRow_highlighted .public_fixedDataTableCell_main {
+    background-color: #fafafa;
+}

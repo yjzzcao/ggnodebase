@@ -1,0 +1,32 @@
+{
+  "name": "ggnodebase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "前端基础项目(API代理跨域)-Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node-dev ./bin/www",
+    "debug": "node --inspect-brk ./bin/www"
+  },
+  "keywords": [
+    "api-proxy",
+    "node",
+    "webpack",
+    "react",
+    "multi-page"
+  ],
+  "author": "yjzzcao@gmail.com",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "serve-favicon": "^2.5.0"
+  }
+}

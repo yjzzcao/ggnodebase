@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= error.status %> - 项目名称</title>
+  <%- include("./_include/head.ejs") %>
+  <!--webpack_style_placeholder-->
+</head>
+<body>
+  <%- include("./_include/header.ejs") %>
+  <div id="layout-main">
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+  </div>
+  <%- include("./_include/footer.ejs") %>
+  <!--webpack_script_placeholder-->
+</body>
+</html>

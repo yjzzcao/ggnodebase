@@ -1,0 +1,68 @@
+.mobile-pager {
+    @border-color1: #DBDEE5;
+    @border3: 1px solid @border-color1;
+    @font3: #354052;
+    @font4: #7F8FA4;
+
+    font-size: 12px;
+    height: 46px;
+    padding: 8px 10px;
+    text-align: right;
+    color: #354052;
+    line-height: 30px;
+    .btn {
+        font-size: 12px;
+        line-height: 14px;
+        width: 18px;
+        height: 24px;
+        letter-spacing: 1px;
+        color: #354052;
+        border: @border3;
+        border-radius: 3px;
+        background-color: #f2f4f7;
+        background-image: linear-gradient(0deg, #f2f4f7 0%, #ffffff 100%);
+        padding: 0;
+        &.display {
+            cursor: not-allowed;
+            opacity: 0.2;
+            color: #353f51;
+            filter: alpha(opacity=20);
+        }
+    }
+    .pre {
+        margin-right: 8px;
+        .caret {
+            position: relative;
+            left: -3px;
+            vertical-align: baseline;
+            border-top: 4px solid transparent;
+            border-right: 4px dashed;
+            border-right: 4px solid \9;
+            border-bottom: 4px solid transparent;
+            top: 4px;
+        }
+    }
+    .next {
+        margin-left: 8px;
+        .caret {
+            position: relative;
+            right: -3px;
+            vertical-align: baseline;
+            border-top: 4px solid transparent;
+            border-bottom: 4px solid transparent;
+            border-left: 4px dashed;
+            border-left: 4px solid \9;
+            top: 4px;
+        }
+    }
+    em {
+        font-style: normal;
+        font-size: 14px;
+        color: @font3;
+    }
+    i {
+        font-style: normal;
+        font-size: 14px;
+        color: @font4;
+    }
+}

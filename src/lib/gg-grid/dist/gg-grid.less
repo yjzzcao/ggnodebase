@@ -1,0 +1,133 @@
+@import "./variable";
+.gg-grid {
+    font-size: @font-size-medium;
+    color: #4d5557;
+    line-height: 34px;
+    table {
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        padding: 0 0.4em 0 0.4em;
+        text-align: center;
+        white-space: nowrap;
+        word-break: keep-all;
+        &.-left-align-,
+        &.lalign {
+            text-align: left; // padding: 0 0 0 0.8em;
+            padding: 0 0 0 12px;
+        }
+        &.-right-align-,
+        &.ralign {
+            text-align: right;
+            padding: 0 0.8em 0 0;
+        }
+    }
+    .gg-grid-head-wrapper {
+        background-color: @bg-color-thead;
+        line-height: 20px;
+        color: @font-color-thead;
+        border-top: solid 1px #cfe2f3;
+        border-bottom: solid 1px #cfe2f3;
+        table {
+            vertical-align: middle;
+            th {
+                &.gg-grid-sortable {
+                    cursor: pointer;
+                }
+                &.-order-by- {
+                    &>.gg-grid-sort-flag {
+                        position: relative;
+                        top: 1px;
+                        display: inline-block;
+                        font-family: 'Glyphicons Halflings';
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        margin: 0 0.1em;
+                        vertical-align: baseline;
+                    }
+                    &.-desc- {
+                        &>.gg-grid-sort-flag {
+                            &:before {
+                                content: "\e094";
+                            }
+                        }
+                    }
+                    &.-asc- {
+                        &>.gg-grid-sort-flag {
+                            &:before {
+                                content: "\e093";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .gg-grid-body-wrapper {
+        background-color: @bg-color-table;
+        &>table {
+            &>tbody {
+                &>tr {
+                    border-top: solid 1px #f5f5f5;
+                    border-bottom: solid 1px #f5f5f5;
+                    &:nth-child(odd) {
+                        background-color: @bg-color-table;
+                    }
+                    &:nth-child(even) {
+                        background-color: @bg-color-tr-strip;
+                    }
+                    &:hover,
+                    &.-hover- {
+                        //outline: solid 1px #d9f2fb;
+                        //background-color: #f7fdff;
+                        background-color: @bg-color-tr-selected;
+                    }
+                    &.-select- {
+                        background-color: @bg-color-tr-selected;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gg-grid-notice-state {
+    min-height: 100px !important;
+    .gg-grid-notice-wrapper {
+        line-height: 100px;
+        font-size: 14px;
+        color: #666;
+    }
+    .zyPrompt {
+        height: 65px;
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        text-align: center;
+        span {
+            line-height: 65px;
+            font-size: 14px;
+        }
+    }
+}
+
+.loadingStyle {
+    z-index: 10000;
+    position: relative;
+    min-height: 170px !important;
+    &:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: " ";
+        background: transparent url("./data_load.gif") center center no-repeat;
+        background-size: 65px 65px;
+        z-index: 10001;
+    }
+}

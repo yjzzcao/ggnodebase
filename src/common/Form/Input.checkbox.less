@@ -1,0 +1,28 @@
+.fr-check {
+    position: absolute;
+    left: -9999em;
+}
+
+.fr-icon-checked:before {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fr-icon-checked:before {
+    display: block;
+    content: " ";
+    width: 16px;
+    height: 16px;
+    background-image: url('./images/select-box.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+.fr-check:checked + .fr-icon-checked:before {
+    background-image: url('./images/select-box-on.png');
+}
+
+.fr-check[disabled] + .fr-icon-checked:before {
+    background-image: url('./images/select-box-off.png');
+}
