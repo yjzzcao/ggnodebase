@@ -8,9 +8,11 @@
 <body>
   <%- include("./_include/header.ejs") %>
   <div id="layout-main">
-    <h1><%= message %></h1>
-    <h2><%= error.status %></h2>
-    <pre><%= error.stack %></pre>
+    <div class="container">
+      <h1><%= message %></h1>
+      <h2><%= error.status %></h2>
+      <pre><%= error.stack %></pre>
+    </div>
   </div>
   <%- include("./_include/footer.ejs") %>
   <!--webpack_script_placeholder-->
