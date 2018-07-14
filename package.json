@@ -5,6 +5,8 @@
   "description": "前端基础项目(API代理跨域)-前端编译",
   "main": "webpack.config.js",
   "scripts": {
+    "create": "sh ./shell/create.sh",
+    "init": "sh ./shell/init.sh",
     "webpack": "./node_modules/.bin/webpack",
     "watch": "npm run webpack -- --config webpack.config.js --progress --colors --watch",
     "build": "npm run webpack -- --config webpack.config.js --progress --colors",
@@ -23,6 +25,7 @@
   "author": "yjzzcao@gmail.com",
   "license": "GPL-3.0",
   "devDependencies": {
+    "ajv": "^6.4.0",
     "autoprefixer": "^8.5.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
