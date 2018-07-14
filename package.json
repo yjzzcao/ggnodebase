@@ -8,11 +8,11 @@
     "create": "sh ./shell/create.sh",
     "init": "sh ./shell/init.sh",
     "webpack": "./node_modules/.bin/webpack",
-    "watch": "npm run webpack -- --config webpack.config.js --progress --colors --watch",
+    "dev": "npm run webpack -- --config webpack.config.js --progress --colors --watch",
     "build": "npm run webpack -- --config webpack.config.js --progress --colors",
     "watch:debug": "node --inspect --debug-brk ./node_modules/.bin/webpack --config webpack.config.js --progress --colors",
     "start": "cd server && DEBUG=log npm start",
-    "dev": "cd server && DEBUG=log npm run dev",
+    "run": "cd server && DEBUG=log npm run run",
     "server:debug": "cd server && DEBUG=log npm run debug"
   },
   "keywords": [
