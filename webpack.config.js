@@ -28,7 +28,8 @@ webpackPlugins.push(new webpack.optimize.CommonsChunkPlugin({
 webpackPlugins.push(new ExtractCssChunksPlugin({
     filename: getPath => {
         return getPath('[name].[contenthash:5].css');
-    }
+    },
+    allChunks: true
 }));
 webpackPlugins.push(new FlushCssChunksPlugin({
     entryOnly: true
