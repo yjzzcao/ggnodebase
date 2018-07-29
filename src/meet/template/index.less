@@ -1,0 +1,121 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.banner {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    img {
+        position: absolute;
+        left: 50%;
+        margin-left: -720px;
+        height: 100%;
+    }
+}
+
+.zhanwei {
+    height: 60px;
+    .tab-nav {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+    }
+    .nav-tabs {
+        border-bottom-width: 0;
+    }
+    .nav-tabs>li>a {
+        font-size: 22px;
+        margin-right: 83px;
+        line-height: 29px;
+        border-width: 0;
+        border-radius: 0;
+    }
+    .nav>li>a {
+        padding: 15px 0 16px 0;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        padding-bottom: 11px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 5px solid #2C68BF;
+        cursor: default;
+    }
+    .affix {
+        top: 72px;
+    }
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #272C37;
+    margin: 20px 0 12px;
+    padding: 8px 0;
+}
+.breadcrumb>li+li:before {
+    content: '>';
+    color: #272C37;
+}
+.breadcrumb>.active {
+    color: #8E8E92;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 28px;
+}
+section > h3 {
+    margin: 0;
+    padding: 15px 0 14px;
+    border-bottom: 1px solid #EEEEEE;
+    div {
+        height: 29px;
+        padding-left: 15px;
+        line-height: 29px;
+        font-size: 22px;
+        font-weight: normal;
+        color: #272C37;
+        border-left: 5px solid #2C68BF;
+        overflow: hidden;
+    }
+    .note {
+        float: right;
+        margin-right: 30px;
+        height: 29px;
+        line-height: 29px;
+        font-size: 14px;
+        color: #8E8E92;
+    }
+}
+section > .content {
+    padding: 37px 30px 45px;
+}
+
+section p {
+    margin: 0 0 30px;
+    font-size: 16px;
+    color: #272727;
+    line-height: 30px;
+}
+section .blue {
+    font-size: 20px;
+    color: #2C68BF;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+section .blank {
+    font-size: 16px;
+    color: #000019;
+    line-height: 30px;
+    font-weight: bold;
+}
+section img {
+    width: 100%;
+}
