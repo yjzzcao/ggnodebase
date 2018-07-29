@@ -30,15 +30,15 @@ class Container extends Component {
                         <h3 id="notice"><div>会议通知</div></h3>
                         <div className="content"></div>
                     </section>
-                    <section  className="section-box2">
+                    <section className="section-box2">
                         <h3 id="address"><div>会议地址</div></h3>
                         <div className="content"></div>
                     </section>
-                    <section  className="section-box3">
+                    <section className="section-box3">
                         <h3 id="schedule"><span className="note">（最终日程以会议现场为准）</span><div>会议日程</div></h3>
                         <div className="content"></div>
                     </section>
-                    <section  className="section-box4">
+                    <section className="section-box4">
                         <h3 id="guest"><span className="note">（最终出席嘉宾以会议现场为准）</span><div>会议嘉宾</div></h3>
                         <div className="content"></div>
                     </section>
