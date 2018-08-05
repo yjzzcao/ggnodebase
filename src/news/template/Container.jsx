@@ -29,7 +29,7 @@ class Container extends Component {
                         </li>
                     </ul>
                 </div>
-                <div style={{ overflow: 'hidden' }}>
+                <div className="content">
                     <ol className="breadcrumb">
                         <li>首页</li>
                         <li>新闻</li>
