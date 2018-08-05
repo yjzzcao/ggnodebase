@@ -6,6 +6,7 @@ class Container extends Component {
             <Fragment>
                 <div className="banner">
                     <img src="TODO" alt="TODO" />
+                    <div className="note">TODO</div>
                 </div>
                 <div className="container">
                     <img className="cut-off-line" src={require('./images/故事详情分割线.png')} alt="故事详情分割线" />
