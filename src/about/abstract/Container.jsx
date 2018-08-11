@@ -8,16 +8,16 @@ class Container extends Component {
                     <div className="navbar">
                         <div className="title">关于电梯</div>
                         <ul className="nav nav-pills nav-stacked">
-                            <li><a href="javacript:void(0)">公司简介</a></li>
-                            <li><a href="javacript:void(0)">公司治理</a></li>
-                            <li><a href="javacript:void(0)">天梯招聘</a></li>
-                            <li><a href="javacript:void(0)">联系电梯</a></li>
+                            <li><a href="/about/abstract">公司简介</a></li>
+                            <li><a href="/about/manage">公司治理</a></li>
+                            <li><a href="/about/join">天梯招聘</a></li>
+                            <li><a href="/about/contact">联系电梯</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="left">
                     <ol className="breadcrumb">
-                        <li><a href="javascript:void(0)">关于电梯</a></li>
+                        <li>关于电梯</li>
                         <li className="active">公司简介</li>
                     </ol>
                     <h1>公司简介</h1>
