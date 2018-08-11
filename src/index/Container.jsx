@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
+// TODO
 class CarouselOther extends Component {
     render() {
         return (
@@ -42,7 +43,7 @@ class Carousel extends Component {
                         <div className="carousel-caption banner1">
                             <div className="container">
                                 <img className="font" src={require('./images/banner1字.png')} alt="font" />
-                                <a href="javascript:void(0)">
+                                <a href="/banner/84b977732d09ee02fc2bdf57ee84ca8a2b7a36e0">
                                     查看案例<img src={require('./images/link-arrow1.png')} width="48" />
                                 </a>
                             </div>
@@ -52,7 +53,7 @@ class Carousel extends Component {
                         <div className="carousel-caption banner2">
                             <div className="container">
                                 <img className="font" src={require('./images/banner2字.png')} alt="font" />
-                                <a href="javascript:void(0)">
+                                <a href="/banner/eff77dba23ea74fb7816d1b9d57a3199f1daf72c">
                                     查看案例<img src={require('./images/link-arrow2.png')} width="48" />
                                 </a>
                             </div>
@@ -103,7 +104,7 @@ class Container extends Component {
                                 <div className="image-box">
                                     <img src={require('./images/品牌解读.png')} alt="品牌解读" />
                                 </div>
-                                <a href="javacript:void(0)">品牌解读</a>
+                                <a href="javascript:void(0)">品牌解读</a>
                                 <h3>梯电传媒是覆盖三线城市两亿人次的电梯媒体平台</h3>
                                 <p>是企业获取客户的最优渠道，是品牌下沉服务的创新者</p>
                             </div>
@@ -114,17 +115,17 @@ class Container extends Component {
                     <div className="container">
                         <p>广告市场复盘及展望：</p>
                         <p>从媒体比较角度再论电梯媒体价值</p>
-                        <a href="javacript:void(0)">了解更多<img src={require('./images/link-arrow1.png')} /></a>
+                        <a href="/news/03c6b11c132ae19a0fc8c183b0e8e2abd73cfe53">了解更多<img src={require('./images/link-arrow1.png')} /></a>
                     </div>
                 </div>
                 <div className="container">
                     <div className="title">
-                        <a href="JavaScript:void(0)">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
+                        <a href="/meet/list">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
                         <h3>会议活动</h3>
                     </div>
                     <CarouselOther />
                     <div className="title">
-                        <a href="JavaScript:void(0)">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
+                        <a href="/story/list">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
                         <h3>成功故事</h3>
                     </div>
                     <div className="row desc4">
@@ -134,7 +135,7 @@ class Container extends Component {
                                 <div>
                                     <div className="title">成功故事</div>
                                     <p>“云闪付”APP日均二维码交易量快速增长近九成</p>
-                                    <a href="javascrpit:void(0)">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
+                                    <a href="/story/b64f7d39f6ff9137cc2803acf4894ec9f2857d7a">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +145,7 @@ class Container extends Component {
                                 <div>
                                     <div className="title">成功故事</div>
                                     <p>农行手机银行客户数量大幅增长</p>
-                                    <a href="javascrpit:void(0)">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
+                                    <a href="/story/51372ede0195c8c3c05a030c42430f7bcfe2a427">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
                                 </div>
                             </div>
                         </div>
@@ -154,13 +155,13 @@ class Container extends Component {
                                 <div>
                                     <div className="title">成功故事</div>
                                     <p>雪花勇闯天涯superX 引爆今夏啤酒市场</p>
-                                    <a href="javascrpit:void(0)">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
+                                    <a href="/story/b72ff0d5c8542be42784c606041003116be97ae1">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="title">
-                        <a href="JavaScript:void(0)">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
+                        <a href="/news/list">查看全部<img src={require('./images/箭头-8.png')} width="9"/></a>
                         <h3>近期新闻</h3>
                     </div>
                     <div className="row desc5">
@@ -170,20 +171,20 @@ class Container extends Component {
                                 <div>
                                     <div className="title">新闻  |  2018年7月2日</div>
                                     <p>梯电传媒百企百城计划，助力100家企业抢占三线城市营销红利，持续为客户创造价值</p>
-                                    <a href="javascrpit:void(0)">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
+                                    <a href="/news/123ecd507fe40834d73f2be0fbf04aa17d30e8a4">更多<img src={require('./images/link-arrow2.png')} width="38" /></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-8">
-                            <a className="item" href="javascript:void(0)">
+                            <a className="item" href="/news/2db541edaa028cd6376d252c0ece0dee0c05c585">
                                 <div className="note">新闻  |  2018年6月25日</div>
                                 <div className="main">梯电传媒与雪花啤酒达成战略合作</div>
                             </a>
-                            <a className="item" href="javascript:void(0)">
+                            <a className="item" href="/news/664117987f40543870dfe5ce934a11ed5fc992ea">
                                 <div className="note">新闻  |  2018年5月16日</div>
                                 <div className="main">梯电传媒与蓝月亮达成战略合作</div>
                             </a>
-                            <a className="item" href="javascript:void(0)">
+                            <a className="item" href="/news/c297efec05c776979fd47dce463a036ee4e1494d">
                                 <div className="note">新闻  |  2018年4月20日</div>
                                 <div className="main">梯电传媒与李奥贝纳广告公司举行会谈</div>
                             </a>
