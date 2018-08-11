@@ -105,7 +105,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">著名汽车品牌成功出海越南</div>
                                     <div className="note">对于中国汽车品牌想要在越南与日系、德系、韩系汽车争得市场份额并不容易，先如今，该汽车品牌已经在越南建立了组装厂，并在当地实现了良好的运营与销售，而这一切良好的开端都是好的产品与营销策略的完美结合...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/516b1928310792a9695db572b535172934304315" className="more">点击查看 ></a>
                                 </div>
                             </li>
                             <li className="item clearfix">
@@ -113,7 +113,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">知名手机品牌成功出海印度</div>
                                     <div className="note">开疆拓土并非易事，而进军印度市场更是难上加难，这是非常棘手的市场，但不管面临多么艰巨的困难，勇往直前就能够扭转局面。对于该品牌在印度的成功，主要做对了三个事情...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/0fe6e78e8562e9d719926d0bbc1f5a5a84883521" className="more">点击查看 ></a>
                                 </div>
                             </li>
                             <li className="item clearfix">
@@ -121,7 +121,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">新兴互联网品牌成功出海马来西亚</div>
                                     <div className="note">该品牌此前主要通过搜索引擎、展示广告、联盟广告、邮件营销等方式进行推广，其中，搜索引擎是第一大流量入口，其有超过一半的流量来自谷歌，但是该企业逐渐发现与高额互联网营销费用不相匹配的是客户粘度很低...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/4b6915b1acb3781bbd7ce072ddb2daf8f9906822" className="more">点击查看 ></a>
                                 </div>
                             </li>
                         </div>
