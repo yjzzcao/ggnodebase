@@ -1,0 +1,133 @@
+.right, .left {
+    background-color: #fff;
+}
+
+.right {
+    float: right;
+    width: 160px;
+    padding-top: 64px;
+    .navbar {
+        border-radius: 0;
+        background-color: #F6F6F6;
+    }
+    .title {
+        margin: 20px 0;
+        padding-left: 27px;
+        height: 24px;
+        line-height: 24px;
+        border-left: 5px solid #2C68BF;
+        font-size: 18px;
+        color: #272C37;
+        font-weight: bold;
+    }
+    ul {
+        margin: 0 15px;
+    }
+
+    li {
+        border-bottom: 1px solid #BABABA;
+    }
+    li:last-child {
+        border-bottom-width: 0;
+    }
+
+    .nav>li>a {
+        padding: 25px 17px;
+        border-radius: 0;
+        line-height: 24px;
+        font-size: 18px;
+        color: #272C37;
+        letter-spacing: 0;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: transparent;
+    }
+}
+
+.left {
+    overflow: hidden;
+    padding: 20px 0;
+    padding-right: 52px;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #272C37;
+    margin-bottom: 12px;
+    padding: 8px 0;
+    background-color: transparent;
+}
+.breadcrumb>li+li:before {
+    content: '>';
+    color: #272C37;
+}
+.breadcrumb>.active {
+    color: #8E8E92;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 36px;
+    line-height: 47px;
+    font-size: 36px;
+    color: #272C37;
+}
+
+.address, .phone, .mail {
+    padding: 40px 47px;
+    margin-bottom: 20px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    line-height: 20px;
+    font-size: 16px;
+    color: #272727;
+    background-color: #F6F6F6;
+    .blank {
+        font-weight: bold;
+        color: #575757;
+    }
+}
+.address {
+    border-left-color: #BF2C7B;
+}
+.phone {
+    border-left-color: #3A79D6;
+}
+.mail {
+    border-left-color: #2CB1BF;
+}
+.media {
+    position: relative;
+    padding: 40px 200px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #272727;
+    background-color: #F6F6F6;
+    .-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #448ACA;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -25px;
+            margin-left: -25px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    > img {
+        position: absolute;
+        top: 33px;
+        left: 140px;
+        width: 35px;
+        height: 35px;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
