@@ -59,7 +59,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">国内第一家将调研统计应用于电梯媒体营销的机构，让企业的投入能够看到量化的产出</div>
                                     <div className="note">A厨电品牌在一二线城市拥有很好的市场份额，但随着近年消费者厨房家电行业竞争的逐渐激烈，该公司的业绩增速开始放缓...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/banner/eff77dba23ea74fb7816d1b9d57a3199f1daf72c" className="more">点击查看 ></a>
                                 </div>
                             </li>
                             <li className="item clearfix">
@@ -67,7 +67,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">“云闪付”APP日均二维码交易量快速增长近九成</div>
                                     <div className="note">银联云闪付是银联专为移动互联网打造的统一品牌，围绕云闪付，银联建立了完整的产品体系，为四方模式生态系统下的发卡、收单、商户以及持卡人提供全方位的服务...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/b64f7d39f6ff9137cc2803acf4894ec9f2857d7a" className="more">点击查看 ></a>
                                 </div>
                             </li>
                             <li className="item clearfix">
@@ -75,7 +75,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">农行手机银行客户数量大幅增长</div>
                                     <div className="note">农行手机银行，是中国农业银行为手机用户提供的专用客户端软件，集金融应用和增值服务于一体，意在满足客户自由、方便、快捷、潮流的移动金融需求，截止2017年末，掌上银行用户总数达2.06亿户...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/51372ede0195c8c3c05a030c42430f7bcfe2a427" className="more">点击查看 ></a>
                                 </div>
                             </li>
                             <li className="item clearfix">
@@ -83,7 +83,7 @@ class Container extends Component {
                                 <div className="content">
                                     <div className="title">雪花勇闯天涯superX 引爆今夏啤酒市场</div>
                                     <div className="note">勇闯天涯superX是华润雪花啤酒自品牌重塑以来推出的首支核心产品，是华润雪花在新的产品开发理念、新的产品精酿技术、新的产品营销模式下推出的一款全新产品，上市后将覆盖餐饮终端等更广泛的渠道...</div>
-                                    <a href="javascript:void(0)" className="more">点击查看 ></a>
+                                    <a href="/story/b72ff0d5c8542be42784c606041003116be97ae1" className="more">点击查看 ></a>
                                 </div>
                             </li>
                         </div>
