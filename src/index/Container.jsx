@@ -96,7 +96,7 @@ class Container extends Component {
                             <div className="item">
                                 <h3>梯电传媒覆盖全国最有价值的138个核心三线城市</h3>
                                 <p>60万媒体资源助力品牌迅速占领三线城市核心消费人群</p>
-                                <a href="javascript:void(0)">了解更多<img src={require('./images/link-arrow1.png')} width="48" /></a>
+                                <a href="/guonei">了解更多<img src={require('./images/link-arrow1.png')} width="48" /></a>
                             </div>
                         </div>
                         <div className="col-xs-12 col-md-6 right">
@@ -104,7 +104,7 @@ class Container extends Component {
                                 <div className="image-box">
                                     <img src={require('./images/品牌解读.png')} alt="品牌解读" />
                                 </div>
-                                <a href="javascript:void(0)">品牌解读</a>
+                                <a href="/about/abstract">品牌解读</a>
                                 <h3>梯电传媒是覆盖三线城市两亿人次的电梯媒体平台</h3>
                                 <p>是企业获取客户的最优渠道，是品牌下沉服务的创新者</p>
                             </div>
