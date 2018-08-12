@@ -95,7 +95,7 @@ class Container extends Component {
                         <div className="col-xs-12 col-md-6 left">
                             <div className="item">
                                 <h3>梯电传媒覆盖全国最有价值的138个核心三线城市</h3>
-                                <p>60万媒体资源品牌迅速占领三线城市核心消费人群</p>
+                                <p>60万媒体资源助力品牌迅速占领三线城市核心消费人群</p>
                                 <a href="javascript:void(0)">了解更多<img src={require('./images/link-arrow1.png')} width="48" /></a>
                             </div>
                         </div>
