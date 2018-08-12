@@ -17,6 +17,12 @@ webpackRules = webpackRules.concat(rules());
 
 // generate htmlPlugins
 let webpackPlugins = [];
+webpackPlugins.push(new webpack.DefinePlugin({
+    "process.env": {
+        NODE_ENV: JSON.stringify('production')
+    }
+}));
+webpackPlugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }));
 webpackPlugins.push(new CleanWebpackPlugin([ // 清空打包后的目录
     path.join(config.server_dir, config.dist_dir),
     path.join(config.server_dir, config.view_dir)]
