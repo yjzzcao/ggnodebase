@@ -10,7 +10,7 @@ class Container extends Component {
                         <ul className="nav nav-pills nav-stacked">
                             <li><a href="/about/abstract">公司简介</a></li>
                             <li><a href="/about/manage">公司治理</a></li>
-                            <li><a href="/about/join">天梯招聘</a></li>
+                            <li><a href="/about/join">电梯招聘</a></li>
                             <li><a href="/about/contact">联系电梯</a></li>
                         </ul>
                     </div>
@@ -37,7 +37,7 @@ class Container extends Component {
                         <span className="blank">4. 品牌转化统计</span><br/>
                         包括对客户最终投放的所有城市的楼宇用户进行品牌购买行为转化统计，与品牌商内部增长数据进行对比论证是否一致。
                     </p>
-                    <h3>国内电梯媒体平台</h3>
+                    <h3>海外电梯媒体平台</h3>
                     <p>
                         梯电传媒的海外营销服务品牌名称为“出海易”。出海易作为全球媒体资源平台，为出海企业提供落地营销解决方案，让企业全球化更加容易。<br/>
                         出海易是向中国企业提供海外落地营销解决方案的领军品牌，作为全球优质媒体资源平台，公司帮助中国两万家出海企业在全球快速扩张，让企业享受“一带一路”的巨大历史机遇，坐拥全球化红利，赢得企业的国际声誉与收益。
