@@ -140,7 +140,7 @@ class Container extends Component {
                                 <img src={require('./images/海外客户2.png')} alt="海外客户2"/>
                                 <div className="content">
                                     <div className="title">华为</div>
-                                    <div className="note">作为个人电脑和移动技术的全球领军企业，联想的产品包括个人电脑、智能手机、平板电脑、智能电视等。其重大的跨国收购活动包括2005年收购IBM的个人电脑业务，以及从Google收购摩托罗拉移动公司。联想在中国之外的移动销售业务最近几年持续增长，其产品在全球160多个国家均有销售。</div>
+                                    <div className="note">华为是一家大型电信设备与智能手机制造商，产品远销全球170多个国家，公司正 在不断推进产品高端化。2017 年上半年，华为的销售额增长了36.2%，其中智能 手机销售额增长了20.6%（高端线的P系列和Mate系列增长率超过100%）。华 为是唯一登上福布斯2017全球品牌价值榜的中国企业，排名第88位，价值达到 73亿美元，与去年同期相比增长了9%。</div>
                                 </div>
                             </li>
                             <li className="item clearfix">
