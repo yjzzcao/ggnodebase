@@ -21,6 +21,7 @@ class Container extends Component {
                         <li className="active">公司治理</li>
                     </ol>
                     <h1>公司治理</h1>
+                    <img src={require('./images/公司治理.png')} alt="公司治理"/>
                 </div>
             </div>
         );

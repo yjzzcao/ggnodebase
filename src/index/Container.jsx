@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 
-// TODO
 class CarouselOther extends Component {
     render() {
         return (
@@ -10,12 +9,12 @@ class CarouselOther extends Component {
                     <li data-target="#carousel-other" data-slide-to="1"></li>
                 </ol>
                 <div className="carousel-inner" role="listbox">
-                    <div className="item active" style={{ backgroundImage: `url(${require('./images/banner1.png')})` }}>
+                    <a href="/meet/1a9828ea959731d2674b3734afcae6609d97cacd" className="item active" style={{ backgroundImage: `url(${require('./images/会议活动1.png')})` }}>
                         <div className="carousel-caption"></div>
-                    </div>
-                    <div className="item" style={{ backgroundImage: `url(${require('./images/banner2.png')})` }}>
+                    </a>
+                    <a href="/meet/97d750cd5315e93a9c26895c1a6df27df828b1c4" className="item" style={{ backgroundImage: `url(${require('./images/会议活动2.png')})` }}>
                         <div className="carousel-caption"></div>
-                    </div>
+                    </a>
                 </div>
                 <a className="left carousel-control" href="#carousel-other" role="button" data-slide="prev">
                     <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

@@ -49,6 +49,7 @@ class Container extends Component {
                     <section id="city">
                         <div className="title">覆盖城市</div>
                         <div className="content">
+                            <img src={require('./images/覆盖城市.png')} alt="覆盖城市"/>
                         </div>
                     </section>
                     <section id="case">
